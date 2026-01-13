@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-AR - Brooklyn Reserve-0.1.0";
 const contentToCache = [
-    "Build/GitTest.loader.js",
-    "Build/GitTest.framework.js.unityweb",
-    "Build/GitTest.data.unityweb",
-    "Build/GitTest.wasm.unityweb",
+    "Build/git test2.loader.js",
+    "Build/git test2.framework.js.unityweb",
+    "Build/git test2.data.unityweb",
+    "Build/git test2.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
