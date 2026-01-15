@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Imagine/WorldTracker/Demos/Scenes/Demo-3DModel.unity
-    guid: 70a4aeaf119af3f4fb465c7eb454b19f
   - enabled: 1
     path: Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity
     guid: c7086fface3e40c499111c8555bbf4c9
