@@ -1356,7 +1356,7 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 	float ___m_Seconds;
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D2865_t73A669C0291A5A3DF307F26C488C563E32628EC8 
+struct __StaticArrayInitTypeSizeU3D2877_t5C30B390E0AD2F04411D1A7D5B49B7B956771932 
 {
 	union
 	{
@@ -1366,12 +1366,12 @@ struct __StaticArrayInitTypeSizeU3D2865_t73A669C0291A5A3DF307F26C488C563E32628EC
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D2865_t73A669C0291A5A3DF307F26C488C563E32628EC8__padding[2865];
+		uint8_t __StaticArrayInitTypeSizeU3D2877_t5C30B390E0AD2F04411D1A7D5B49B7B956771932__padding[2877];
 	};
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D4457_t01D5906823CB993FEAB3CC430BD9AF16A24FBB0C 
+struct __StaticArrayInitTypeSizeU3D4502_tCB1A711CD2BCFEAC12750F65A443E11093127CF6 
 {
 	union
 	{
@@ -1381,7 +1381,7 @@ struct __StaticArrayInitTypeSizeU3D4457_t01D5906823CB993FEAB3CC430BD9AF16A24FBB0
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D4457_t01D5906823CB993FEAB3CC430BD9AF16A24FBB0C__padding[4457];
+		uint8_t __StaticArrayInitTypeSizeU3D4502_tCB1A711CD2BCFEAC12750F65A443E11093127CF6__padding[4502];
 	};
 };
 #pragma pack(pop, tp)
@@ -3092,8 +3092,8 @@ struct List_1_tF949700A3DD5F6FB0C89AF57299CDF9CCCD74DFC_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D4457_t01D5906823CB993FEAB3CC430BD9AF16A24FBB0C ___63C182586EBF49F77157B7C11FFEDA18E6B59CFD5A5472EEEF329B97B2F46745;
-	__StaticArrayInitTypeSizeU3D2865_t73A669C0291A5A3DF307F26C488C563E32628EC8 ___893EF41F34151E0BDA35351E7EECE5B02C08B99A376A7CCBD56751D14E6B6631;
+	__StaticArrayInitTypeSizeU3D2877_t5C30B390E0AD2F04411D1A7D5B49B7B956771932 ___16E0436259FDA5FA5ED1DA924959F7EA8BAB36E86B2C76AC67A289C588D62BEE;
+	__StaticArrayInitTypeSizeU3D4502_tCB1A711CD2BCFEAC12750F65A443E11093127CF6 ___C8B9D8C8428892DBFC2D8CB7FB1C7D33BFFDE56E7125A102CF82F526144CE300;
 };
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
 {
@@ -7638,10 +7638,10 @@ IL_003a:
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___screenShot), (void*)L_7);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = __this->___screenShot;
 		int32_t L_9;
-		L_9 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_8);
+		L_9 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_8);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_10 = __this->___screenShot;
 		int32_t L_11;
-		L_11 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_10);
+		L_11 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_10);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_12 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)il2cpp_codegen_object_new(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
 		RenderTexture__ctor_m45EACC89DDF408948889586516B3CA7AA8B73BFA(L_12, L_9, L_11, ((int32_t)24), NULL);
 		V_0 = L_12;
@@ -7657,10 +7657,10 @@ IL_003a:
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_17 = __this->___screenShot;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_18 = __this->___screenShot;
 		int32_t L_19;
-		L_19 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_18);
+		L_19 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_18);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_20 = __this->___screenShot;
 		int32_t L_21;
-		L_21 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_20);
+		L_21 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_20);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_22;
 		memset((&L_22), 0, sizeof(L_22));
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_22), (0.0f), (0.0f), ((float)L_19), ((float)L_21), NULL);
@@ -7891,12 +7891,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextureScale_ThreadedScale_m64C0CB9809FE
 		int32_t L_6 = ___1_newWidth;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_7 = ___0_tex;
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_7);
+		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_7);
 		((TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_StaticFields*)il2cpp_codegen_static_fields_for(TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_il2cpp_TypeInfo_var))->___ratioX = ((float)((1.0f)/((float)(((float)L_6)/((float)((int32_t)il2cpp_codegen_subtract(L_8, 1)))))));
 		int32_t L_9 = ___2_newHeight;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_10 = ___0_tex;
 		int32_t L_11;
-		L_11 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_10);
+		L_11 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_10);
 		((TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_StaticFields*)il2cpp_codegen_static_fields_for(TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_il2cpp_TypeInfo_var))->___ratioY = ((float)((1.0f)/((float)(((float)L_9)/((float)((int32_t)il2cpp_codegen_subtract(L_11, 1)))))));
 		goto IL_0069;
 	}
@@ -7905,12 +7905,12 @@ IL_004b:
 	{
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_12 = ___0_tex;
 		int32_t L_13;
-		L_13 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_12);
+		L_13 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_12);
 		int32_t L_14 = ___1_newWidth;
 		((TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_StaticFields*)il2cpp_codegen_static_fields_for(TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_il2cpp_TypeInfo_var))->___ratioX = ((float)(((float)L_13)/((float)L_14)));
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_15 = ___0_tex;
 		int32_t L_16;
-		L_16 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_15);
+		L_16 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_15);
 		int32_t L_17 = ___2_newHeight;
 		((TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_StaticFields*)il2cpp_codegen_static_fields_for(TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_il2cpp_TypeInfo_var))->___ratioY = ((float)(((float)L_16)/((float)L_17)));
 	}
@@ -7919,7 +7919,7 @@ IL_0069:
 	{
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_18 = ___0_tex;
 		int32_t L_19;
-		L_19 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_18);
+		L_19 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_18);
 		((TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_StaticFields*)il2cpp_codegen_static_fields_for(TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_il2cpp_TypeInfo_var))->___w = L_19;
 		int32_t L_20 = ___1_newWidth;
 		((TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_StaticFields*)il2cpp_codegen_static_fields_for(TextureScale_tD462073D003D6C77915603BE7CBF0F01F4AD24B3_il2cpp_TypeInfo_var))->___w2 = L_20;

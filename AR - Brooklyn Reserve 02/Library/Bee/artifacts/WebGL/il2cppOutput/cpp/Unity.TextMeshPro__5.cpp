@@ -13950,7 +13950,7 @@ IL_01b2:
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_139 = __this->___spriteAsset;
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_140 = L_139->___spriteSheet;
 		int32_t L_141;
-		L_141 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_140);
+		L_141 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_140);
 		TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E* L_142 = V_3;
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_143;
 		L_143 = TMP_TextElement_get_glyph_mB86D5107DDF4ADB051309056E876FEAE843E3D07_inline(L_142, NULL);
@@ -13962,7 +13962,7 @@ IL_01b2:
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_146 = __this->___spriteAsset;
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_147 = L_146->___spriteSheet;
 		int32_t L_148;
-		L_148 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_147);
+		L_148 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_147);
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_12), ((float)(((float)L_138)/((float)L_141))), ((float)(((float)L_145)/((float)L_148))), NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_149 = V_12;
 		float L_150 = L_149.___x;
@@ -13985,7 +13985,7 @@ IL_01b2:
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_159 = __this->___spriteAsset;
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_160 = L_159->___spriteSheet;
 		int32_t L_161;
-		L_161 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_160);
+		L_161 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_160);
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_13), L_150, ((float)(((float)((int32_t)il2cpp_codegen_add(L_154, L_158)))/((float)L_161))), NULL);
 		TMP_SpriteCharacter_t98295D0A81320909AC4AD5F2602DD69EACBB449E* L_162 = V_3;
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_163;
@@ -14006,7 +14006,7 @@ IL_01b2:
 		TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* L_170 = __this->___spriteAsset;
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_171 = L_170->___spriteSheet;
 		int32_t L_172;
-		L_172 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_171);
+		L_172 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_171);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_173 = V_13;
 		float L_174 = L_173.___y;
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_14), ((float)(((float)((int32_t)il2cpp_codegen_add(L_165, L_169)))/((float)L_172))), L_174, NULL);

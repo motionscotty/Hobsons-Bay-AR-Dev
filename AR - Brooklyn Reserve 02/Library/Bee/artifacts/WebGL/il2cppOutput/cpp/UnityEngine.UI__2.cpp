@@ -4586,7 +4586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RawImage_SetNativeSize_m02ACAE096422EE2D
 	{
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_3 = V_0;
 		int32_t L_4;
-		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_3);
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_3);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_5;
 		L_5 = RawImage_get_uvRect_m83D2C4632C6AE437D1DC775904AC2FA8CB83D823_inline(__this, NULL);
 		V_3 = L_5;
@@ -4597,7 +4597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RawImage_SetNativeSize_m02ACAE096422EE2D
 		V_1 = L_7;
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_8 = V_0;
 		int32_t L_9;
-		L_9 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_8);
+		L_9 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_8);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_10;
 		L_10 = RawImage_get_uvRect_m83D2C4632C6AE437D1DC775904AC2FA8CB83D823_inline(__this, NULL);
 		V_3 = L_10;
@@ -4679,7 +4679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RawImage_OnPopulateMesh_mA85FE8B6123F6B3
 		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&V_2), L_5, L_6, ((float)il2cpp_codegen_add(L_7, L_8)), ((float)il2cpp_codegen_add(L_9, L_10)), NULL);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_11 = V_0;
 		int32_t L_12;
-		L_12 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_11);
+		L_12 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_11);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_13 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
 		L_14 = Texture_get_texelSize_m05CA60DE53EF7CD5D2CBFA68B69B764E4D463359(L_13, NULL);
@@ -4687,7 +4687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RawImage_OnPopulateMesh_mA85FE8B6123F6B3
 		V_3 = ((float)il2cpp_codegen_multiply(((float)L_12), L_15));
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_16 = V_0;
 		int32_t L_17;
-		L_17 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_16);
+		L_17 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_16);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_18 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19;
 		L_19 = Texture_get_texelSize_m05CA60DE53EF7CD5D2CBFA68B69B764E4D463359(L_18, NULL);
