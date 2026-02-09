@@ -669,6 +669,7 @@ UnityEngine.Quaternion::Internal_ToEulerRad_Injected
 UnityEngine.Quaternion::Inverse_Injected
 UnityEngine.Quaternion::Lerp_Injected
 UnityEngine.Quaternion::LookRotation_Injected
+UnityEngine.Quaternion::SlerpUnclamped_Injected
 UnityEngine.Quaternion::Slerp_Injected
 UnityEngine.Random::RandomRangeInt
 UnityEngine.Random::Range
