@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Imagine.WebAR.ARCameraGlobalSettings
     - Imagine.WebAR.WorldTrackerGlobalSettings
     Assembly-CSharp.dll:
+    - ConstrainOffsetLook
     - Imagine.WebAR.ARCamera
     - Imagine.WebAR.PinchToScale
     - Imagine.WebAR.Samples.CustomEventSystem
@@ -14,7 +15,6 @@ ScriptsOnlyBuild:
     - Imagine.WebAR.TextureDownloader
     - Imagine.WebAR.TwoFingerPan
     - Imagine.WebAR.WorldTracker
-    - LookAt
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -411,8 +411,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 22406}
     - Class: 114
-      Script: {instanceID: 22474}
-    - Class: 114
       Script: {instanceID: 22516}
     - Class: 114
       Script: {instanceID: 22542}
@@ -472,6 +470,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 26484}
     - Class: 114
       Script: {instanceID: 26826}
+    - Class: 114
+      Script: {instanceID: 36316}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1477,7 +1477,7 @@ ScriptsOnlyBuild:
     className: Light2D
   - hash:
       serializedVersion: 2
-      Hash: a98f072437f38a4251423f611b8f7204
+      Hash: 393a5a6f1ad42d5ad2b909548b2c1a84
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: LookAt
@@ -2189,6 +2189,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f0c7958a06b6e62c17de38d1c4fcc790
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ConstrainOffsetLook
   platform: 20
   scenePathNames:
   - Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity
