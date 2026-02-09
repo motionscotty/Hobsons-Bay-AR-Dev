@@ -4634,7 +4634,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tap on the ground to meet the Magpie
+  m_text: Tap here to meet the Magpie
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4858,7 +4858,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0ee44a75e128a1743bd6f802fd594a81, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8ecfd279bf6d41c428490c240bcfe71e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

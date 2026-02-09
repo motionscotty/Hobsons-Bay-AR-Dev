@@ -459,19 +459,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 24916}
     - Class: 114
-      Script: {instanceID: 24956}
+      Script: {instanceID: 24918}
     - Class: 114
-      Script: {instanceID: 25412}
+      Script: {instanceID: 24958}
     - Class: 114
-      Script: {instanceID: 26044}
+      Script: {instanceID: 25414}
     - Class: 114
-      Script: {instanceID: 26418}
+      Script: {instanceID: 26046}
     - Class: 114
-      Script: {instanceID: 26484}
+      Script: {instanceID: 26420}
     - Class: 114
-      Script: {instanceID: 26826}
+      Script: {instanceID: 26486}
     - Class: 114
-      Script: {instanceID: 36316}
+      Script: {instanceID: 26828}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1855,6 +1855,12 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
+      Hash: f0c7958a06b6e62c17de38d1c4fcc790
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ConstrainOffsetLook
+  - hash:
+      serializedVersion: 2
       Hash: 4392bfff79efe0630144f16ea4d656ab
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
@@ -2189,12 +2195,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: f0c7958a06b6e62c17de38d1c4fcc790
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ConstrainOffsetLook
   platform: 20
   scenePathNames:
   - Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity
