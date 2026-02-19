@@ -61,8 +61,14 @@ namespace Imagine.WebAR
         [SerializeField] private bool usePlacementIndicator = true;
         [SerializeField] private PlacementIndicatorSettings placementIndicatorSettings;
         [SerializeField] public EventSettings eventSettings;
+       
+
 
         [SerializeField] public bool useCompass = false;
+
+
+
+
 
 
         private Vector3 origPos, origScale;

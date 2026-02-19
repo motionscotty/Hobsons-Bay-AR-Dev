@@ -3,13 +3,18 @@ using UnityEngine;
 public class ConstrainOffsetLook : MonoBehaviour
 {
     [Header("Targets")]
-    public Transform offsetObject;    // Child of AR camera
-    public Transform neckBone;        // Neck/head bone
+    public Transform offsetObject;
+    public Transform neckBone;
 
     [Header("Constraints")]
     public float maxDistance = 5f;
     public float maxAngle = 60f;
     public float minDistance = 0.5f;
+
+    [Header("Offsets")]
+    // Euler angles applied after LookAt, in the bone's local space.
+    // For a backwards head: set Y = 180. For a sideways head: try X or Z.
+    public Vector3 rotationOffset = Vector3.zero;
 
     void LateUpdate()
     {
@@ -27,7 +32,6 @@ public class ConstrainOffsetLook : MonoBehaviour
         Vector3 clampedDir;
         if (dot < maxDot)
         {
-            // Project to cone edge
             Vector3 axis = Vector3.Cross(charForward, toOffset).normalized;
             clampedDir = Quaternion.AngleAxis(maxAngle, axis) * charForward;
         }
@@ -42,6 +46,7 @@ public class ConstrainOffsetLook : MonoBehaviour
         if (neckBone != null)
         {
             neckBone.LookAt(offsetObject);
+            neckBone.rotation *= Quaternion.Euler(rotationOffset); // local-space offset
         }
     }
 }
