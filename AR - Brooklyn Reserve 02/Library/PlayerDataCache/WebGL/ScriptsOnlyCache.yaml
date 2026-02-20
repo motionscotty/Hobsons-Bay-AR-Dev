@@ -4,7 +4,6 @@ ScriptsOnlyBuild:
     - Imagine.WebAR.ARCameraGlobalSettings
     - Imagine.WebAR.WorldTrackerGlobalSettings
     Assembly-CSharp.dll:
-    - ConstrainOffsetLook
     - Imagine.WebAR.ARCamera
     - Imagine.WebAR.ARCameraGlobalSettings
     - Imagine.WebAR.PinchToScale
@@ -96,6 +95,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -212,9 +212,18 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Imagine.WebAR.WorldTracker
+    methodName: ResetOrigin
+  - assembly: Assembly-CSharp
+    fullTypeName: Imagine.WebAR.WorldTracker
+    methodName: ResetOrigin
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Imagine.WebAR.WorldTracker
+    methodName: PlaceOrigin
   - assembly: Assembly-CSharp
     fullTypeName: Imagine.WebAR.Samples.DemoSceneLoader
     methodName: LoadScene
@@ -279,7 +288,7 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   sceneClasses:
-    Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity:
+    Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Teeth.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -443,8 +452,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 24868}
     - Class: 114
-      Script: {instanceID: 24920}
-    - Class: 114
       Script: {instanceID: 24922}
     - Class: 114
       Script: {instanceID: 24962}
@@ -461,8 +468,6 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -2195,5 +2200,5 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 20
   scenePathNames:
-  - Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity
-  playerPath: F:/Github/Hobsons-Bay-AR-Dev/Hobsons-Bay-AR-Dev/Beetle Build
+  - Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Teeth.unity
+  playerPath: F:/Github/Hobsons-Bay-AR-Dev/Hobsons-Bay-AR-Dev/Teeth Build
