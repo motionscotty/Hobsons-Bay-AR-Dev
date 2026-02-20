@@ -1351,6 +1351,7 @@ MonoBehaviour:
   maxDistance: 5
   maxAngle: 60
   minDistance: 0.5
+  rotationOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3114,6 +3115,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 963194230}
+    - target: {fileID: 3763760086657090123, guid: 2905476775a0e574c81f38c36f0656ae, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 4396576262770589507, guid: 2905476775a0e574c81f38c36f0656ae, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3214,6 +3219,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1454896295}
+    - target: {fileID: 6970405139563436428, guid: 2905476775a0e574c81f38c36f0656ae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7242456495114047404, guid: 2905476775a0e574c81f38c36f0656ae, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -3222,6 +3231,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2012873207}
+    - target: {fileID: 8646051690156460442, guid: 2905476775a0e574c81f38c36f0656ae, type: 3}
+      propertyPath: m_text
+      value: 'Well done!
+
+        You''ve met "Name" the Magpie.
+
+
+        Have you
+        discovered all 5 stories in the park?
+
+'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
