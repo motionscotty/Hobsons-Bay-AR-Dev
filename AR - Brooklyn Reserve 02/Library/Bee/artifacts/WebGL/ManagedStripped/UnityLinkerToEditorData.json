@@ -7,7 +7,7 @@
           {
             "name": "AnimationClip",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -15,7 +15,7 @@
           {
             "name": "Animator",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -23,7 +23,7 @@
           {
             "name": "AnimatorController",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -54,7 +54,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -62,7 +62,7 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -70,7 +70,7 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -84,7 +84,7 @@
           {
             "name": "AudioSource",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -92,7 +92,7 @@
           {
             "name": "SampleClip",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -123,7 +123,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -143,7 +143,7 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -163,7 +163,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -177,7 +177,7 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -203,7 +203,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -211,7 +211,7 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -231,7 +231,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -245,7 +245,7 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -253,7 +253,7 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -261,7 +261,7 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -269,7 +269,7 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -277,7 +277,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -291,7 +291,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -299,7 +299,7 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -331,7 +331,7 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -345,7 +345,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -377,7 +377,7 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -391,7 +391,7 @@
           {
             "name": "SkinnedMeshRenderer",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -411,7 +411,7 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -718,7 +718,7 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -732,7 +732,7 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1012,7 +1012,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1061,7 +1061,7 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1075,7 +1075,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity"
+              "Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity"
             ],
             "dependencyType": 0,
             "icon": null

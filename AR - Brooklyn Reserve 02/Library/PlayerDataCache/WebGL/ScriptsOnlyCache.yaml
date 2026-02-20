@@ -6,15 +6,18 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ConstrainOffsetLook
     - Imagine.WebAR.ARCamera
+    - Imagine.WebAR.ARCameraGlobalSettings
     - Imagine.WebAR.PinchToScale
     - Imagine.WebAR.Samples.CustomEventSystem
     - Imagine.WebAR.Samples.DemoSceneLoader
-    - Imagine.WebAR.Samples.FPSCounter
     - Imagine.WebAR.ScreenshotManager
     - Imagine.WebAR.SwipeToRotateY
     - Imagine.WebAR.TextureDownloader
     - Imagine.WebAR.TwoFingerPan
     - Imagine.WebAR.WorldTracker
+    - Imagine.WebAR.WorldTrackerGlobalSettings
+    - PlacementTester
+    - ShowAfterDelay
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -65,6 +68,14 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -159,9 +170,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: Imagine.WebAR.WorldTracker
-    methodName: ResetOrigin
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -180,24 +188,36 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: Imagine.WebAR.ARCamera
-    methodName: UnpauseCamera
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: Imagine.WebAR.ScreenshotManager
-    methodName: GetScreenShot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: Imagine.WebAR.Samples.DemoSceneLoader
     methodName: LoadScene
-  - assembly: Assembly-CSharp
-    fullTypeName: Imagine.WebAR.WorldTracker
-    methodName: StartTracker
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -205,35 +225,8 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
-    fullTypeName: Imagine.WebAR.WorldTracker
-    methodName: PlaceOrigin
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: Imagine.WebAR.ARCamera
-    methodName: PauseCamera
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: Imagine.WebAR.WorldTracker
-    methodName: StopTracker
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
+    fullTypeName: ShowAfterDelay
+    methodName: Show
   - assembly: Assembly-CSharp
     fullTypeName: Imagine.WebAR.SwipeToRotateY
     methodName: Reset
@@ -243,15 +236,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Imagine.WebAR.TwoFingerPan
     methodName: Reset
-  - assembly: Assembly-CSharp
-    fullTypeName: Imagine.WebAR.WorldTracker
-    methodName: ResetOrigin
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: Imagine.WebAR.ARCamera
-    methodName: FlipCamera
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
     methodName: OnAction
@@ -295,7 +279,7 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   sceneClasses:
-    Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity:
+    Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -359,119 +343,121 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17358}
     - Class: 114
-      Script: {instanceID: 17680}
+      Script: {instanceID: 17460}
     - Class: 114
-      Script: {instanceID: 17750}
+      Script: {instanceID: 17682}
     - Class: 114
-      Script: {instanceID: 17890}
+      Script: {instanceID: 17752}
     - Class: 114
-      Script: {instanceID: 17992}
+      Script: {instanceID: 17892}
     - Class: 114
-      Script: {instanceID: 18120}
+      Script: {instanceID: 17994}
     - Class: 114
-      Script: {instanceID: 18136}
+      Script: {instanceID: 18122}
     - Class: 114
-      Script: {instanceID: 18270}
+      Script: {instanceID: 18138}
     - Class: 114
-      Script: {instanceID: 18792}
+      Script: {instanceID: 18272}
     - Class: 114
-      Script: {instanceID: 18948}
+      Script: {instanceID: 18794}
     - Class: 114
-      Script: {instanceID: 19680}
+      Script: {instanceID: 18950}
     - Class: 114
       Script: {instanceID: 19682}
     - Class: 114
-      Script: {instanceID: 19818}
+      Script: {instanceID: 19684}
     - Class: 114
-      Script: {instanceID: 19864}
+      Script: {instanceID: 19820}
     - Class: 114
-      Script: {instanceID: 20054}
+      Script: {instanceID: 19866}
     - Class: 114
-      Script: {instanceID: 20118}
+      Script: {instanceID: 20056}
     - Class: 114
-      Script: {instanceID: 20154}
+      Script: {instanceID: 20120}
     - Class: 114
-      Script: {instanceID: 20226}
+      Script: {instanceID: 20156}
     - Class: 114
-      Script: {instanceID: 20672}
+      Script: {instanceID: 20228}
     - Class: 114
-      Script: {instanceID: 20828}
+      Script: {instanceID: 20674}
     - Class: 114
-      Script: {instanceID: 20862}
+      Script: {instanceID: 20830}
     - Class: 114
-      Script: {instanceID: 20912}
+      Script: {instanceID: 20864}
     - Class: 114
-      Script: {instanceID: 21030}
+      Script: {instanceID: 21032}
     - Class: 114
-      Script: {instanceID: 21296}
+      Script: {instanceID: 21298}
     - Class: 114
-      Script: {instanceID: 21434}
+      Script: {instanceID: 21436}
     - Class: 114
-      Script: {instanceID: 22322}
+      Script: {instanceID: 22324}
     - Class: 114
-      Script: {instanceID: 22406}
+      Script: {instanceID: 22408}
     - Class: 114
-      Script: {instanceID: 22516}
+      Script: {instanceID: 22518}
     - Class: 114
-      Script: {instanceID: 22542}
+      Script: {instanceID: 22544}
     - Class: 114
-      Script: {instanceID: 22622}
+      Script: {instanceID: 22624}
     - Class: 114
-      Script: {instanceID: 22632}
+      Script: {instanceID: 22634}
     - Class: 114
-      Script: {instanceID: 22922}
+      Script: {instanceID: 22924}
     - Class: 114
-      Script: {instanceID: 22930}
+      Script: {instanceID: 22932}
     - Class: 114
-      Script: {instanceID: 22954}
+      Script: {instanceID: 22956}
     - Class: 114
-      Script: {instanceID: 23018}
+      Script: {instanceID: 23020}
     - Class: 114
-      Script: {instanceID: 23178}
+      Script: {instanceID: 23180}
     - Class: 114
-      Script: {instanceID: 23360}
+      Script: {instanceID: 23262}
     - Class: 114
-      Script: {instanceID: 23774}
+      Script: {instanceID: 23364}
     - Class: 114
-      Script: {instanceID: 23790}
+      Script: {instanceID: 23778}
     - Class: 114
-      Script: {instanceID: 23892}
+      Script: {instanceID: 23794}
     - Class: 114
-      Script: {instanceID: 23900}
+      Script: {instanceID: 23896}
     - Class: 114
-      Script: {instanceID: 23988}
+      Script: {instanceID: 23904}
     - Class: 114
-      Script: {instanceID: 24086}
+      Script: {instanceID: 23992}
     - Class: 114
-      Script: {instanceID: 24138}
+      Script: {instanceID: 24090}
     - Class: 114
-      Script: {instanceID: 24210}
+      Script: {instanceID: 24142}
     - Class: 114
-      Script: {instanceID: 24314}
+      Script: {instanceID: 24214}
     - Class: 114
-      Script: {instanceID: 24330}
+      Script: {instanceID: 24318}
     - Class: 114
-      Script: {instanceID: 24482}
+      Script: {instanceID: 24334}
     - Class: 114
-      Script: {instanceID: 24690}
+      Script: {instanceID: 24486}
     - Class: 114
-      Script: {instanceID: 24864}
+      Script: {instanceID: 24694}
     - Class: 114
-      Script: {instanceID: 24916}
+      Script: {instanceID: 24868}
     - Class: 114
-      Script: {instanceID: 24918}
+      Script: {instanceID: 24920}
     - Class: 114
-      Script: {instanceID: 24958}
+      Script: {instanceID: 24922}
     - Class: 114
-      Script: {instanceID: 25414}
+      Script: {instanceID: 24962}
     - Class: 114
-      Script: {instanceID: 26046}
+      Script: {instanceID: 25418}
     - Class: 114
-      Script: {instanceID: 26420}
+      Script: {instanceID: 26050}
     - Class: 114
-      Script: {instanceID: 26486}
+      Script: {instanceID: 26424}
     - Class: 114
-      Script: {instanceID: 26828}
+      Script: {instanceID: 26490}
+    - Class: 114
+      Script: {instanceID: 26832}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -623,6 +609,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: SimpleScript
+  - hash:
+      serializedVersion: 2
+      Hash: a2dabbc8d6847ce27af0929eb6d0edbe
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShowAfterDelay
   - hash:
       serializedVersion: 2
       Hash: 65d7429f900cd0d7d58933027dfdd825
@@ -1633,6 +1625,12 @@ ScriptsOnlyBuild:
     className: VolumeComponent
   - hash:
       serializedVersion: 2
+      Hash: 8aa15ad14e89d91abe83ea33b65905f1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlacementTester
+  - hash:
+      serializedVersion: 2
       Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
@@ -1855,7 +1853,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: f0c7958a06b6e62c17de38d1c4fcc790
+      Hash: d01f51d3ede8f2df983fbff57bbe04b4
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ConstrainOffsetLook
@@ -2197,5 +2195,5 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 20
   scenePathNames:
-  - Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity
-  playerPath: F:/Github/Hobsons-Bay-AR-Dev/Hobsons-Bay-AR-Dev
+  - Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Beetle.unity
+  playerPath: F:/Github/Hobsons-Bay-AR-Dev/Hobsons-Bay-AR-Dev/Beetle Build
