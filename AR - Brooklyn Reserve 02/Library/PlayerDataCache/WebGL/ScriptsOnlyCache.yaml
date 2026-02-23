@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Imagine.WebAR.ARCameraGlobalSettings
     - Imagine.WebAR.WorldTrackerGlobalSettings
     Assembly-CSharp.dll:
+    - ConstrainOffsetLook
     - Imagine.WebAR.ARCamera
     - Imagine.WebAR.ARCameraGlobalSettings
     - Imagine.WebAR.PinchToScale
@@ -17,6 +18,8 @@ ScriptsOnlyBuild:
     - Imagine.WebAR.WorldTrackerGlobalSettings
     - PlacementTester
     - ShowAfterDelay
+    Unity.Formats.Alembic.Runtime.dll:
+    - UnityEngine.Formats.Alembic.Timeline.AlembicShotAsset
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -50,10 +53,18 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector3
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
+    Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
+    - UnityEngine.Rendering.Universal.UniversalRendererData
+    - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.ShaderGraph.Editor.dll:
+    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     Unity.TextMeshPro:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
@@ -67,6 +78,14 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelinePreferences
+    - TimelineProjectSettings
+    - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineAssetViewModel
+    - UnityEditor.Timeline.TimelineWindow
+    Unity.Timeline.dll:
+    - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -112,6 +131,14 @@ ScriptsOnlyBuild:
     - Imagine.WebAR.WorldTracker/Settings3DOFOrbit
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIPrefabBundle
+    Unity.RenderPipelines.Universal.Runtime:
+    - UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
+    - UnityEngine.Rendering.Universal.PostProcessData/TextureResources
+    - UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
+    - UnityEngine.Rendering.Universal.StencilStateData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset/TextureResources
+    - UnityEngine.Rendering.Universal.UniversalRendererData/ShaderResources
+    - UnityEngine.Rendering.Universal.XRSystemData/ShaderResources
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -164,6 +191,36 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Imagine.WebAR.ScreenshotManager
+    methodName: GetScreenShot
+  - assembly: Assembly-CSharp
+    fullTypeName: Imagine.WebAR.WorldTracker
+    methodName: ResetOrigin
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Imagine.WebAR.ARCamera
+    methodName: FlipCamera
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Imagine.WebAR.ARCamera
+    methodName: UnpauseCamera
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Imagine.WebAR.ARCamera
+    methodName: PauseCamera
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -188,21 +245,18 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Imagine.WebAR.WorldTracker
+    methodName: StopTracker
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Imagine.WebAR.WorldTracker
+    methodName: StartTracker
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -288,7 +342,7 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   sceneClasses:
-    Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Teeth.unity:
+    Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -332,142 +386,146 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16888}
+      Script: {instanceID: 16904}
     - Class: 114
-      Script: {instanceID: 16890}
+      Script: {instanceID: 16906}
     - Class: 114
-      Script: {instanceID: 16892}
+      Script: {instanceID: 16908}
     - Class: 114
-      Script: {instanceID: 16894}
+      Script: {instanceID: 16910}
     - Class: 114
-      Script: {instanceID: 16896}
+      Script: {instanceID: 16912}
     - Class: 114
-      Script: {instanceID: 16902}
+      Script: {instanceID: 16918}
     - Class: 114
-      Script: {instanceID: 16964}
+      Script: {instanceID: 16982}
     - Class: 114
-      Script: {instanceID: 17080}
+      Script: {instanceID: 17098}
     - Class: 114
-      Script: {instanceID: 17150}
+      Script: {instanceID: 17168}
     - Class: 114
-      Script: {instanceID: 17358}
+      Script: {instanceID: 17378}
     - Class: 114
-      Script: {instanceID: 17460}
+      Script: {instanceID: 17480}
     - Class: 114
-      Script: {instanceID: 17682}
+      Script: {instanceID: 17702}
     - Class: 114
-      Script: {instanceID: 17752}
+      Script: {instanceID: 17772}
     - Class: 114
-      Script: {instanceID: 17892}
+      Script: {instanceID: 17914}
     - Class: 114
-      Script: {instanceID: 17994}
+      Script: {instanceID: 18016}
     - Class: 114
-      Script: {instanceID: 18122}
+      Script: {instanceID: 18144}
     - Class: 114
-      Script: {instanceID: 18138}
+      Script: {instanceID: 18160}
     - Class: 114
-      Script: {instanceID: 18272}
+      Script: {instanceID: 18294}
     - Class: 114
-      Script: {instanceID: 18794}
+      Script: {instanceID: 18826}
     - Class: 114
-      Script: {instanceID: 18950}
+      Script: {instanceID: 18982}
     - Class: 114
-      Script: {instanceID: 19682}
+      Script: {instanceID: 19722}
     - Class: 114
-      Script: {instanceID: 19684}
+      Script: {instanceID: 19724}
     - Class: 114
-      Script: {instanceID: 19820}
+      Script: {instanceID: 19862}
     - Class: 114
-      Script: {instanceID: 19866}
+      Script: {instanceID: 19910}
     - Class: 114
-      Script: {instanceID: 20056}
+      Script: {instanceID: 20102}
     - Class: 114
-      Script: {instanceID: 20120}
+      Script: {instanceID: 20166}
     - Class: 114
-      Script: {instanceID: 20156}
+      Script: {instanceID: 20202}
     - Class: 114
-      Script: {instanceID: 20228}
+      Script: {instanceID: 20274}
     - Class: 114
-      Script: {instanceID: 20674}
+      Script: {instanceID: 20726}
     - Class: 114
-      Script: {instanceID: 20830}
+      Script: {instanceID: 20882}
     - Class: 114
-      Script: {instanceID: 20864}
+      Script: {instanceID: 20916}
     - Class: 114
-      Script: {instanceID: 21032}
+      Script: {instanceID: 21086}
     - Class: 114
-      Script: {instanceID: 21298}
+      Script: {instanceID: 21352}
     - Class: 114
-      Script: {instanceID: 21436}
+      Script: {instanceID: 21492}
     - Class: 114
-      Script: {instanceID: 22324}
+      Script: {instanceID: 22390}
     - Class: 114
-      Script: {instanceID: 22408}
+      Script: {instanceID: 22476}
     - Class: 114
-      Script: {instanceID: 22518}
+      Script: {instanceID: 22588}
     - Class: 114
-      Script: {instanceID: 22544}
+      Script: {instanceID: 22616}
     - Class: 114
-      Script: {instanceID: 22624}
+      Script: {instanceID: 22696}
     - Class: 114
-      Script: {instanceID: 22634}
+      Script: {instanceID: 22706}
     - Class: 114
-      Script: {instanceID: 22924}
+      Script: {instanceID: 23000}
     - Class: 114
-      Script: {instanceID: 22932}
+      Script: {instanceID: 23008}
     - Class: 114
-      Script: {instanceID: 22956}
+      Script: {instanceID: 23032}
     - Class: 114
-      Script: {instanceID: 23020}
-    - Class: 114
-      Script: {instanceID: 23180}
+      Script: {instanceID: 23100}
     - Class: 114
       Script: {instanceID: 23262}
     - Class: 114
-      Script: {instanceID: 23364}
+      Script: {instanceID: 23344}
     - Class: 114
-      Script: {instanceID: 23778}
+      Script: {instanceID: 23446}
     - Class: 114
-      Script: {instanceID: 23794}
+      Script: {instanceID: 23870}
     - Class: 114
-      Script: {instanceID: 23896}
+      Script: {instanceID: 23886}
     - Class: 114
-      Script: {instanceID: 23904}
+      Script: {instanceID: 23990}
     - Class: 114
-      Script: {instanceID: 23992}
+      Script: {instanceID: 23998}
     - Class: 114
-      Script: {instanceID: 24090}
+      Script: {instanceID: 24086}
     - Class: 114
-      Script: {instanceID: 24142}
+      Script: {instanceID: 24186}
     - Class: 114
-      Script: {instanceID: 24214}
+      Script: {instanceID: 24238}
     - Class: 114
-      Script: {instanceID: 24318}
+      Script: {instanceID: 24310}
     - Class: 114
-      Script: {instanceID: 24334}
+      Script: {instanceID: 24416}
     - Class: 114
-      Script: {instanceID: 24486}
+      Script: {instanceID: 24432}
     - Class: 114
-      Script: {instanceID: 24694}
+      Script: {instanceID: 24584}
     - Class: 114
-      Script: {instanceID: 24868}
+      Script: {instanceID: 24794}
     - Class: 114
-      Script: {instanceID: 24922}
+      Script: {instanceID: 24968}
     - Class: 114
-      Script: {instanceID: 24962}
+      Script: {instanceID: 25020}
     - Class: 114
-      Script: {instanceID: 25418}
+      Script: {instanceID: 25022}
     - Class: 114
-      Script: {instanceID: 26050}
+      Script: {instanceID: 25064}
     - Class: 114
-      Script: {instanceID: 26424}
+      Script: {instanceID: 25526}
     - Class: 114
-      Script: {instanceID: 26490}
+      Script: {instanceID: 26164}
     - Class: 114
-      Script: {instanceID: 26832}
+      Script: {instanceID: 26544}
+    - Class: 114
+      Script: {instanceID: 26612}
+    - Class: 114
+      Script: {instanceID: 26954}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -2200,5 +2258,5 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 20
   scenePathNames:
-  - Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Teeth.unity
-  playerPath: F:/Github/Hobsons-Bay-AR-Dev/Hobsons-Bay-AR-Dev/Teeth Build
+  - Assets/Hobsons Bay/Scenes/Brooklyn Reserve - Magpie.unity
+  playerPath: F:/Github/Hobsons-Bay-AR-Dev/Hobsons-Bay-AR-Dev/Magpie Build
