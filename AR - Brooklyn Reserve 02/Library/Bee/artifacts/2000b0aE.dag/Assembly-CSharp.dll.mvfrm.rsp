@@ -1,5 +1,6 @@
 Library\Bee\artifacts\mvdfrm\Unity.Burst.Editor.ref.dll_030BCB777AA5BDC3.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_75A67EE1951F90CE.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Collections.ref.dll_17CA8F61EA9E7873.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.EditorCoroutines.Editor.ref.dll_63B9EB35A0645901.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Formats.Alembic.Editor.ref.dll_707C87509FEE1A1C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Formats.Alembic.Runtime.ref.dll_D9E483F276FC604F.mvfrm
@@ -123,4 +124,5 @@ Library\Bee\artifacts\mvdfrm\Unity.Android.Gradle.dll_F9F4DA7932AB3E67.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Android.GradleProject.dll_EAE2CCA86E7F54BE.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Android.Types.dll_3AA93A2F2EFABCC5.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.WebGLModule.dll_6AF6CF1681DF796E.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Collections.LowLevel.ILSupport.dll_2E40CE80E145E521.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_FBC62C826EB2B4B0.mvfrm
