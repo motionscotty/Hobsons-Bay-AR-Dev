@@ -54,7 +54,7 @@ MonoBehaviour:
   m_ShadowDepthBias: 2.27
   m_ShadowNormalBias: 0.02
   m_AnyShadowsSupported: 1
-  m_SoftShadowsSupported: 1
+  m_SoftShadowsSupported: 0
   m_ConservativeEnclosingSphere: 1
   m_NumIterationsEnclosingSphere: 64
   m_SoftShadowQuality: 1
