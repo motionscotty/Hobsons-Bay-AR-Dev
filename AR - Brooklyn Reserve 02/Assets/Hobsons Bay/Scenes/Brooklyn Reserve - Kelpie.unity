@@ -2995,7 +2995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89dfbc5f142b894479e92bb16172d9f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 123
+  delay: 126
   target: {fileID: 411314522}
 --- !u!1 &2123741195
 GameObject:
@@ -5613,7 +5613,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241857072185955063}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14e1808da18cd014199d422c4e7129c1, type: 3}
   m_Name: 
@@ -5621,7 +5621,7 @@ MonoBehaviour:
   offsetObject: {fileID: 371602759}
   neckBone: {fileID: 1682211913050863292}
   maxDistance: 5
-  maxAngle: 60
+  maxAngle: 20
   minDistance: 0.5
   rotationOffset: {x: 90, y: -180, z: 0}
 --- !u!1 &8954437156819397720
